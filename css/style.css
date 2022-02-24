@@ -544,6 +544,7 @@ display: none;
  color: #000000;
  border-bottom: 1px solid #94bf31;
  height: 80px;
+ line-height: 1.5;
 }
 #menu main section .feisaru{
   margin-bottom: 100px;
