@@ -84,10 +84,11 @@
   .hamburger-nav li a{
     text-align: center;
     font-size: 16px;
-    margin: 0 130px;
+    margin: 0 110px;
     color: #ffffff;
-    
+    width: 124px;
   }
+ 
   /* a タグに出てくる四角のbackground-colorを消してます */
   a{
    -webkit-tap-highlight-color:transparent;
