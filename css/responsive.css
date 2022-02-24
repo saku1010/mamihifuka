@@ -1,0 +1,368 @@
+@media screen and (max-width:480px) {
+  /* -------------------
+  全体構造
+  -------------------- */
+  /* 幅の調整 */
+  img{
+    max-width: 100%;
+  }
+  header{
+    width: auto;
+  }
+  .information{
+    width: auto;
+  }
+  #home .sub-nav ul{
+    width: auto;
+  }
+  /* iframe{
+    width: auto;
+  } */
+  footer {
+    width: auto;
+  }
+  #clinic header p img{
+    width: auto;
+  }
+  #clinic main .incyou{
+    width: auto;
+  }
+  #clinic main .simei{
+    width: auto;
+  }
+  #beginner main .daun{
+    width: auto;
+  }
+  #menu main .sinnryou{
+    width: auto;
+  }
+  /* コンテンツ */
+  
+   /* -------------------
+    ヘッター
+  -------------------- */
+  header h2{
+    margin-top:-70px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+  header h1 a{
+    margin-left: 32px;
+  }
+  header .main-nav{
+    display: block;
+  }
+  #home header .bxslider{
+    margin-bottom: 0;
+    height:0;
+    }
+  #home header .bxslider img{
+    padding-left: 0;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  /* ナビゲーションの非表示 */
+  header .pc-nav{
+    display: none;
+  }
+  /* ハンバーガーメニュー */
+  .hamburger-nav{
+    background-color: #bf31;
+  /* 高さの調節はここ */
+  }
+  .hamburger-nav ul{
+    display: block;
+  }
+  .hamburger-button{
+    background-color: #94bf31;
+    display: flex;
+    border-radius: 20%;
+  }
+  .hamburger-button path{
+    fill: #ffffff;
+  }
+  .hamburger-nav li a{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 130px;
+    color: #ffffff;
+    
+  }
+  /* a タグに出てくる四角のbackground-colorを消してます */
+  a{
+   -webkit-tap-highlight-color:transparent;
+  }
+
+  .hamburger-nav li a:hover{
+    color:#ffff;
+    background: #94bf31;
+    border-radius: 100px;
+  }
+  
+  .hamburger-nav address{
+    line-height: 1.1;
+    font-size: 14px;
+    margin: 0 30px;
+    text-align: left;
+    width: 300px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 15px;
+  } 
+  .hamburger-nav address a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  /* -------------------
+    メイン
+  -------------------- */
+  #home .sub-nav ul{
+    width: auto;
+    display: block;
+    }
+  #home .sub-nav nav{
+    padding:3px 100px ;
+  }
+  #home header p{
+    height:auto;
+    }
+
+    /* お知らせ */
+    
+  #home .hituyou{
+    width: auto;
+    text-align: center;
+      height: 600px;
+   }
+  #home .hituyou h2{
+    margin-left: 100px;
+    margin-bottom: 30px;
+  }
+  #home .news{
+    width:auto;
+  }
+  #home section .osirase{
+    display: block;
+    margin: 0 50px;
+   }
+  #home section .osirase img{
+    margin-bottom: 60px;
+  }
+  #home .kyuusin .news{
+      /* 3月休診の幅調整 */
+    width: 200px;
+  }
+
+
+/* -----------
+診療案内
+----------*/
+
+  .sin{
+    height: auto;
+  }
+  /* .sin h2{
+    text-align: left;
+    margin-left: 60px;
+  } */
+  .information{
+    display: block;
+  }
+  .information .sinryou{
+    border-left: none;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    border-bottom: 1px solid #94bf31;
+  }
+  .information .kyuusinnbi{
+    border-left: none;
+    border-right:none;
+    border-bottom: 1px solid #94bf31;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .information .tel{
+    border-right:none;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    }
+  /* -------------------
+    フッター
+  -------------------- */
+  footer address{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer img{
+    height: auto;
+  }
+
+/* -----------
+clinic 
+-----------------*/
+/* ヘッター */
+  #clinic header p img{
+    height: auto;
+    padding-left: 0;
+  }
+  #clinic main .incyou{
+    display:block;
+    flex-direction: column-reverse;
+
+    margin: 0 auto 50px auto;
+  }
+  #clinic main .incyou .ryaku{
+    width: auto;
+    margin-bottom: 50px;
+  }
+  #clinic main .incyou .mami-pc{
+    display: none;
+  }
+  #clinic main .incyou .mami-keitai{
+  display: block;
+  }
+  #clinic main .incyou .mami{
+    margin-top: 20px;
+    margin: 0 45px 50px 45px;
+  }
+  #clinic main .incyou .ryaku .heisei{
+    margin-right: 30px;
+  }
+  #clinic main .incyou .ryaku .heisei th{
+    width: 100px;
+  }
+  #clinic main section .sikaku{
+    display: block;
+    width:auto;
+    padding-left: 45px;
+    margin-bottom: 100px;
+  }
+  #clinic main .incyou img{
+    margin-left: 110px;
+    margin-bottom: 50px;
+  }
+  #clinic main section .sikaku .gakkai{
+    margin-bottom: 50px;
+  }
+
+  /* まみ皮膚科使命 */
+  #clinic main .simei1{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #clinic main .simei{
+    width: auto;
+  }
+/* ---------
+beginner
+------------ */
+  #beginner header p img{
+    height: auto;
+    padding-left: 0;
+  }
+
+  #beginner main .daun{
+    height: auto;
+  }
+  #beginner main .daun p{
+    text-align: left;
+  }
+  #beginner main .nagare{
+    width: auto;
+    margin:100px 20px;
+  }
+  /* --------
+  menu
+  ---------- */
+  #menu header p img{
+    height: auto;
+    padding-left: 0;
+  }
+  #menu main .sinnryou{
+    height: auto;
+    margin: 0 20px 100px 20px;
+
+  }
+  /* ---------
+  商品ご案内　product
+  --------- */
+  #product header p img{
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    margin-bottom:80px;
+  }
+  #product main{
+    width:auto;
+  }
+/* 商品の画像 */
+  #product main .syouhinnmei{
+    display: block;
+    width: auto;
+  }
+  #product main iframe{
+    width: auto;
+    margin-left: 40px;
+  }
+
+
+/* 消費税の改行するように設定 */
+  #menu main .sinnryou .syouhizei br{
+  display: inline;
+  }
+  /* フェイシャル料金表 */
+  #menu main section .aa{
+    width: 300px;
+  }
+  #menu main section .ab{
+    width: 200px;
+  }
+  #menu main section .ac{
+    width: 100px;
+  }
+  /* しみ治療 */
+  #menu main section .ba{
+    width: 300px;
+  }
+  #menu main section .bb{
+    width: 200px;
+  }
+  #menu main section .bc{
+    width: 100px;
+  }
+  /* 脱毛メニュー */
+  #menu main section .ca{
+    width: 150px;
+  }
+  #menu main section .cb{
+    width: 140px;
+    text-align: center;
+    padding-left:0px;
+  }
+  #menu main section .cc{
+    width: 140px;
+    text-align: center;
+    padding-left:0px;
+  }
+  #menu main section .cd{
+    width: 140px;
+    text-align: center;
+    padding-left:0px;
+  }
+  #menu main section .ce{
+    width: 140px;
+    text-align: center;
+    padding-left:0px;
+  }
+  #menu main section p{
+    margin-left: 20px;
+  }
+  /* 全体のテーブル */
+  #menu main table{
+    margin-left: 20px;
+  }
+  #menu main section h3{
+    margin-left: 20px;
+  }
+}

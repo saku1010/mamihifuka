@@ -1,0 +1,701 @@
+/* --------------
+全体構造
+--------------- */
+body{
+  font-size: 16px;
+  background-color: #fff;
+  color: #94bf31;
+  font-family: 'Yuji Syuku','ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  
+}
+
+/* --------------
+へッター
+--------------- */
+header .main-nav{
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 a{
+  display: block;
+  font-size: 30px;
+  width: 210px;
+  text-decoration: none;
+  color: #94bf31;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+header h1 img{
+margin-top: 24px
+}
+
+header ul{
+  width: 720px;
+  display: flex;
+  justify-content: space-between;
+}
+header li a{
+  display: block;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #94bf31;
+
+}
+
+/* ----------------
+mein 診療案内
+----------------- */
+.sin{
+  height: 500px;
+  margin-bottom: 100px;
+  /* background-color:#F8F6EF ; */
+  background-image:url(../imegs/AdobeStock111_438735572_.png) ;
+  background-attachment: fixed;
+  background-position: center center;
+}
+/* 診療案内 */
+.sin h2{
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+}
+.sin h2 span{
+  font-size: 30px;
+  font-family: 'Yuji Syuku', serif;
+}
+.information{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px ;
+  width: 900px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+.information .eigo{
+margin-bottom: 15px;
+font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+}
+.information h3{
+  /* holdayの高さが合わなかったので調整 */
+  line-height: 1.8;
+}
+/* 診療時間 */
+.information .sinryou{
+  border-left: 1px solid #94bf31;
+  width: 280px;
+  text-align: center;
+  line-height: 1.8;
+
+}
+/* 休診日 */
+.information .kyuusinnbi{
+  width: 280px;
+  text-align: center;
+  border-left: 1px solid #94bf31;
+  border-right: 1px solid #94bf31;
+
+}
+.information .kyuusinnbi .youbi{
+  padding-top: 10px;
+  line-height: 2;
+}
+/* 電話 */
+.information .tel{
+  border-right: 1px solid #94bf31;
+  width: 280px;
+  text-align: center;
+  line-height: 1.8;
+}
+.information .tel a{
+  display: block;
+  text-decoration: none;
+  color: #94bf31;
+}
+
+/*--------------
+ homeのヘッター 
+ --------------*/
+
+#home header .bxslider img{
+  width: 100%;
+  object-fit: cover;
+  padding-left: 200px;
+  /* 画像ファーストビューいっぱいだけどheader 分-100ｐｘの設定 */
+  height: calc(100vh - 100px);
+  margin-bottom: 100px;
+}
+.bx-wrapper {
+  box-shadow: none;
+  border: none;
+  left: 0;
+  background-color: transparent;
+  margin: 0 auto;
+ }
+/* --------------
+ホーム　メイン
+--------------- */
+#home .sub-nav{
+  background-image:url(../imegs/AdobeStock_438735572\ .png) ;
+  background-attachment: fixed;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+#home .sub-nav ul{
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#home .sub-nav ul a{
+  display: block;
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  margin: 80px 0;
+  /* 垂直平行センター */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  /* waku */
+ box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+ border-radius: 10px;
+ color: #94bf31;
+}
+#home .sub-nav ul a img{
+  margin-bottom: 10px;
+}
+/* お知らせ */
+#home .hituyou{
+  margin: 0 auto 100px auto;
+  width: 800px;
+
+}
+#home .hituyou h2{
+  letter-spacing:0.2em;
+  margin-bottom: 10px;
+}
+
+#home .hituyou h4{
+  margin-bottom: 30px;
+}
+/* #home .hituyou h3{
+  font-family: 'Open Sans', sans-serif;
+} */
+#home .hituyou img{
+  margin-right: 30px;
+}
+#home .hituyou time{
+  display: block;
+  margin-bottom: 10px;
+}
+#home section .osirase{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 330px;
+}
+#home .news{
+width: 260px;
+}
+#home .mami a{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #94bf31;
+  line-height: 1.3;
+}
+#home .kyuusin a{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #94bf31;
+}
+#home .taifu a{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #94bf31;
+}
+#home .natu a{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #94bf31;
+}
+
+
+/* map */
+iframe{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+
+/* -------------
+フッター
+--------- */
+footer address{
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+footer a{
+  display: block;
+  text-decoration: none;
+  color: #94bf31;
+}
+footer i{
+  font-size: 30px;
+}
+footer img{
+  width: 100%;
+  height: 300px;
+}
+/* -----------
+clinic 
+-----------------*/
+/* ヘッター */
+#clinic header p img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 200px;
+    margin-bottom:80px;
+
+  }
+  header h2{
+    margin-top: -170px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    font-size:24px;
+  }
+/* メイン */
+#clinic main section .isi{
+  text-align: center;
+  margin-bottom: 50px;
+}
+#clinic main .incyou{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 900px;
+  /* auto済 */
+  margin: 0 auto 50px auto;
+}
+#clinic main .incyou h4{
+  background-color: #94bf31;
+  color: #fff;
+  width:72px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+#clinic main .incyou .ryaku{
+  width: 550px;
+  margin-left: 50px;
+}
+#clinic main .incyou .mami-keitai{
+  display: none;
+}
+#clinic main .incyou .mami{
+  margin-top: 20px;
+}
+#clinic main .incyou .ryaku .heisei{
+  line-height: 1.5;
+  margin-right: 30px;
+}
+#clinic main .incyou .ryaku .heisei th{
+  width: 100px;
+}
+#clinic main section .sikaku{
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  width: 900px;
+  padding-left: 200px;
+  margin-bottom: 100px;
+
+}
+#clinic main section .sikaku li{
+list-style-type: none;
+}
+#clinic main section .sikaku .gakkai{
+text-align: left;
+}
+#clinic main section .sikaku .gakkai h4{ 
+  background-color: #94bf31;
+  color: #fff;
+  width: 96px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#clinic main section .sikaku .nihon{
+  text-align: left;
+  }
+  #clinic main section .sikaku .nihon h4{
+    background-color: #94bf31;
+    color: #fff;
+    width: 72px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* まみ皮膚科の使命 */
+  #clinic main .simei1{
+    background-image:url(../imegs/AdobeStock111_438735572_.png) ;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 100px 0;
+    margin-bottom: 100px;
+  }
+  #clinic main .simei{
+    width: 900px;
+    margin: 0 auto;
+    /* width auto済 */
+  }
+  #clinic main .simei h5{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #clinic main .simei p{
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: #000000;
+
+  }
+  #clinic main .simei ul{
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: #000000;
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  #clinic main .sin{
+    background-image: none;
+    background-color: #fff;
+  }
+
+/* beginner */
+/* ヘッター */
+#beginner header p img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 200px;
+  margin-bottom:80px;
+}
+/* メイン */
+#beginner main section h3{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#beginner main section h3 span{
+  font-size: 16px;
+}
+#beginner main .daun{
+  width: 900px;
+  margin: 0 auto 80px auto;
+  border: 1px solid #94bf31;
+  padding: 30px 70px;
+
+  height: 200px;
+  text-align: center;
+}
+#beginner main .daun p{
+  margin-bottom: 30px;
+}
+#beginner main .nagare{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto 200px auto;
+
+}
+#beginner main .nagare p{
+width: 400px;
+height: 400px;
+line-height: 2.4;
+padding-top: 10px;
+}
+#beginner main .nagare h4{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 72px;
+  font-size: 20px;
+}
+/* 画像パラックス */
+.parallax{
+  opacity: 0;
+  position: relative;
+  top: 50px;
+ }
+ .parallax.on{
+  opacity: 1;
+  top: 0;
+ }
+
+/* 料金案内 */
+#menu header p img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 200px;
+  margin-bottom:80px;
+}
+#menu main .sinnryou{
+  width: 850px;
+  height: 150px;
+  margin: 0 auto;
+  border: 1px solid #94bf31;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+#menu main .sinnryou h3{
+  width: 225px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#menu main section h3 span{
+  font-size: 16px;
+
+}
+#menu main .sinnryou .syosinn {
+  width: 225px;
+  border-left: 1px solid #94bf31;
+  border-right: 1px solid #94bf31;
+  margin-top: 30px;
+  /* センターへ */
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#menu main .sinnryou .syouhizei{
+  width: 225px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#menu main .sinnryou .syouhizei br{
+display: none;
+}
+#menu main  section{
+  width: 1000px;
+  margin: 0 auto;
+}
+#menu main section h3{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+#menu main  section th{
+  background-color: #94bf31;
+  color: #fff;
+  width: 1000px;
+  height: 50px;
+  padding: 20px;
+  font-size: 20px;
+}
+#menu main section td{
+ color: #000000;
+ border-bottom: 1px solid #94bf31;
+ height: 80px;
+}
+#menu main section .feisaru{
+  margin-bottom: 100px;
+}
+#menu main section td{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#menu main section .datumou td{
+padding: 30px;
+}
+#menu main section .aa{
+  width: 500px;
+}
+#menu main section .ab{
+  width: 365px;
+}
+#menu main section .ac{
+  width: 135px;
+}
+#menu main section .ba{
+  width: 500px;
+}
+#menu main section .bb{
+  width: 365px;
+}
+#menu main section .bc{
+  width: 135px;
+}
+#menu main section .simi{
+  margin-bottom: 100px;
+}
+#menu main section .ca{
+  width: 240px;
+}
+#menu main section .cb{
+  width: 190px;
+  text-align: center;
+  padding-left:0px;
+}
+#menu main section .cc{
+  width: 190px;
+  text-align: center;
+  padding-left:0px;
+}
+#menu main section .cd{
+  width: 190px;
+  text-align: center;
+  padding-left:0px;
+}
+#menu main section .ce{
+  width: 190px;
+  text-align: center;
+  padding-left:0px;
+}
+#menu main section p{
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+/* product */
+/* ヘッター */
+
+#product header p img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding-left: 200px;
+  margin-bottom:80px;
+}
+#product main{
+  width: 1100px;
+  margin: 0 auto;
+}
+#product .bakk{
+  background-image:url(../imegs/AdobeStock111_438735572_.png) ;
+  background-attachment: fixed;
+  background-position: center center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+#product main h3{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+#product main h4{
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  font-family: 'Abril Fatface', cursive;
+  color: #000000;
+}
+#product main p{
+  text-align: center;
+  margin-bottom: 80px;
+}
+#product main .syouhinnmei{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+#product main img{
+  margin-bottom: 100px;
+}
+#product main iframe{
+  height: 350px;
+  margin-left: 40px;
+}
+/* -----------
+ｊｓ　画像ふわっと
+------------ */
+
+/* fadeIn */
+.fadeIn{
+  animation-name: fadeInAnime;
+  animation-duration:3s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeInAnime{
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+  
+  .fadeInTrigger{
+      opacity: 0;
+  }
+  
+  /*========= レイアウトのためのCSS ===============*/
+  
+  
+  .box{
+    padding: 20px;
+    margin:20px;
+   
+    color: #fff;
+    box-sizing:border-box;
+  }
+
+
+/* ------------------
+ハンバーガーメニュー非表示
+------------- */
+.hamburger-button{
+  display: none;
+}
